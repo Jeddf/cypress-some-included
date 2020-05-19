@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:buster-slim
 
 ENV CI=1
 ENTRYPOINT ["cypress", "run"]
