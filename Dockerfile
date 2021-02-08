@@ -8,6 +8,7 @@ RUN apt-get update && \
   libgtk-3-0 \
   libnotify-dev \
   libgconf-2-4 \
+  libgbm-dev \
   libnss3 \
   libxss1 \
   libasound2 \
@@ -15,4 +16,4 @@ RUN apt-get update && \
   xvfb \
   && rm -rf /var/lib/apt/lists/*
 
-RUN npm install -g --unsafe-perm "cypress@>=4" && cypress verify
+RUN npm install -g --unsafe-perm "cypress" && cypress verify
