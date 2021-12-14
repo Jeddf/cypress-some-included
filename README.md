@@ -10,6 +10,6 @@ this images is used to run tests on an external server it should be fine, though
 
 ## Usage
 
-`docker run -v $MY_CYPRESS_JSON_DIR:/e2e -w /e2e martijnstorck/cypress-some-included`
+`docker run -v $MY_CYPRESS_JSON_DIR:/e2e -w /e2e jeddf/cypress-some-included`
 
 See the `cypress/included` for further documentation.
